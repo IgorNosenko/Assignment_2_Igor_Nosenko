@@ -1,0 +1,124 @@
+{
+  "name": "DiceRobot-REF",
+  "description": "Searching a job in top-10 US cities by population using Dice.com site based on Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.Testing.Activities": "[1.4.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f703a203-c4bb-4da7-9e2b-fc0b3b542a78",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "937c2dd3-52e8-4ff5-91db-1995d36e4aa3",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b710b4dd-ca8b-4250-87c6-19485ce1207a",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dc012a13-2323-4b8c-a65c-8b285707abb0",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8bd65cd3-f0e8-485b-a257-fa990c2a37bf",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "377efa3b-3c81-42ea-9d51-50776ccb6c59",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8f50c500-4076-4195-b4eb-46808c538603",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "10cd48ea-0682-4fd8-ad15-b6610eb9646b",
+        "dataVariationFilePath": ".variations\\Test_Results_Sheet1.json",
+        "fileName": "DiceCom\\DiceComTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bb8c492f-4b25-4237-a1fa-2a8751f888c2",
+        "dataVariationFilePath": ".variations\\Test_Results_Sheet1_1.json",
+        "fileName": "DoubleValidationTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b83c6ec1-bbec-481e-a1e6-fc576cb58fa2",
+        "fileName": "OutlookWorkflows\\SendingEmailTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2027b9d5-58ea-41da-86da-d99a06873f56",
+        "dataVariationFilePath": ".variations\\Test_Results_Sheet1_2.json",
+        "fileName": "ExcelWorkflows\\ResultsExcelTableTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c9030977-79f3-474c-84a7-253e86fce4c6",
+        "dataVariationFilePath": ".variations\\DistanceValidationTest_Sheet1.json",
+        "fileName": "DistanceValidationTestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "4311e84a-a498-49be-bd38-c600c3f46d5b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
